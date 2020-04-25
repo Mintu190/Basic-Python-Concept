@@ -1,0 +1,31 @@
+1. NumPy Stands For Numerical Python.
+2. It Provides A Good Ability To Create Multidimentional Array Object To Faster Computing.
+3. Written For Sciectific Computing.
+
+Numpy Object :  ND Array, This Need To Be Homogenous Arry Means They Have Same Type.
+                eg:  [1,2,3] Value Will Be Same
+                We Can Take Only Fload and Integer Data Type in numPy Array    
+                T
+                
+                
+ NOTE:      Why We Use NumPy Array when We Have A list ?
+ Reason :   Because NumPy contain The Paralleliszm Machnism Means,Lets Take A Example
+             
+             A = [1,2,3,4,5,6,8]
+Here We Have 'A' , What Happen When We Have To Sumup A's Element.
+When We Use LIST =  It Will Sum Sequentionally mean (1+2,3+3,6+4 ..)So On So Forth
+When We Use NumPy Array  = it Will Add Par-lly Means (1+2,6+8,...)So On So Forth
+             
+             
+             
+If You Want To Want To Use Numpy Packages SO You Have To Import that
+
+ Syntax :       import numpy as np
+
+Explanation : We Importing Numpy Package And We Can Create A Alias Of That Can Say "np",
+
+               Suppose We Have To use "Shape" Function from NumPy Lib.
+               
+               np.shape()
+               
+               
